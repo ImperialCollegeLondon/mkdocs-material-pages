@@ -7,6 +7,10 @@ theme:
     primary: custom
     accent: custom
 
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   logo: assets/logo.png
   favicon: assets/favicon.png
 extra_css:
