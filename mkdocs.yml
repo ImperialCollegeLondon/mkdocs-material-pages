@@ -6,5 +6,8 @@ theme:
     scheme: default # or slate for dark-mode
     primary: custom
     accent: custom
+
+  logo: assets/logo.png
+  favicon: assets/favicon.png
 extra_css:
 - stylesheets/extra.css
