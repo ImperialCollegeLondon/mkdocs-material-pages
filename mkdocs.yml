@@ -13,5 +13,12 @@ theme:
 
   logo: assets/logo.png
   favicon: assets/favicon.png
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+   # - navigation.sections
+    - navigation.indexes
 extra_css:
 - stylesheets/extra.css
