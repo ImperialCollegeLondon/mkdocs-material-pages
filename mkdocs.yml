@@ -2,3 +2,9 @@ site_name: My Project
 site_url: https://imperialcollegelondon.github.io/myproject
 theme:
   name: material
+  palette:
+    scheme: default # or slate for dark-mode
+    primary: custom
+    accent: custom
+extra_css:
+- stylesheets/extra.css
