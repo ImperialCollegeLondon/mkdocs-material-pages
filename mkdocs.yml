@@ -20,5 +20,37 @@ theme:
     - navigation.tabs
    # - navigation.sections
     - navigation.indexes
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+
 extra_css:
 - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
