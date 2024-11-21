@@ -3,7 +3,7 @@
 This repository can be used as a template for building beautiful
 pages with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and is the main resource for ECRI's [Publishing Software Projects for Open Science](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/open-science/) course.
 
-After you've create your new repository from the template, build your site by following along with the [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material/getting-started/). After you have made at least one commit, go to your repository settings and set the following to make your pages live:
+After you've create your new repository from the template, build your site by following along with the [Material for MkDocs documentation](https://squidfunk.github.io/mkdocs-material/getting-started/). After you have made at least one commit, go to your repository settings and set the GitHub Pages branch setting to `gh-pages` to make your pages live:
 
 ![Setting up GitHub Pages](docs/assets/gh-pages-setting.png)
 
